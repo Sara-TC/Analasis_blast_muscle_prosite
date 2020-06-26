@@ -14,18 +14,18 @@ Este script realiza las siguientes tareas:
 
 Muscle y Biopython.
 
-
 ##### USO 
 
     ./main.py [query] [dir_subject/] [identity cut-off] [coverage cut-off] [prosite database]
     
-    *[query]*: archivo a analizar con formato fasta.
-    *[dir_subject/]*: directorio donde se encuentran los subjects con formato Genbank.
-    *[identity cut-off]*: número entre 0 y 100.
-    *[coverage cut-off]*: número entre 0 y 100.
-    *[prosite database]*: base de datos de Prosite con formato Prosite.
+   *[query]*: archivo a analizar con formato fasta.
+   *[dir_subject/]*: directorio donde se encuentran los subjects con formato Genbank.
+   *[identity cut-off]*: número entre 0 y 100.
+   *[coverage cut-off]*: número entre 0 y 100.
+   *[prosite database]*: base de datos de Prosite con formato Prosite.
     
     ./main.py [-h]
     o
     ./main.py [--help]
-    se mostrará un mensaje de ayuda.    
+    
+   Mostrará un mensaje de ayuda.    
