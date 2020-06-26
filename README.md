@@ -10,9 +10,11 @@ Este script realiza las siguientes tareas:
         - Búsqueda de dominios protéicos presentes en database de Prosite indicando sus
           características principales (name, accession, description, domain...).
           
+          
 ##### INSTALACIÓN
 
 Muscle y Biopython.
+
 
 ##### USO 
 
@@ -21,12 +23,17 @@ Muscle y Biopython.
    *[query]*: archivo a analizar con formato fasta.
   
    *[dir_subject/]*: directorio donde se encuentran los subjects con formato Genbank.
+   
    *[identity cut-off]*: número entre 0 y 100.
+   
    *[coverage cut-off]*: número entre 0 y 100.
+   
    *[prosite database]*: base de datos de Prosite con formato Prosite.
     
     ./main.py [-h]
-    o
+    
+   o
+   
     ./main.py [--help]
     
    Mostrará un mensaje de ayuda.    
