@@ -39,3 +39,4 @@ Muscle y Biopython.
     ./main.py [--help]
     
    Mostrará un mensaje de ayuda.    
+ 
