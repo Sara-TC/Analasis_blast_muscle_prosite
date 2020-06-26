@@ -11,12 +11,12 @@ Este script realiza las siguientes tareas:
           características principales (name, accession, description, domain...).
           
           
-##### INSTALACIÓN
+#### INSTALACIÓN
 
 Muscle y Biopython.
 
 
-##### USO 
+#### USO 
 
     ./main.py [query] [dir_subject/] [identity cut-off] [coverage cut-off] [prosite database]
     
